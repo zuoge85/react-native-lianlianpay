@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C23C8991E8E840C0017DE68 /* RCTLianLianAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C23C8981E8E840C0017DE68 /* RCTLianLianAPI.m */; };
+		5C23C89C1E8E86D50017DE68 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C23C89B1E8E86D50017DE68 /* CoreTelephony.framework */; };
+		5C23C89F1E8F4D090017DE68 /* LLOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C23C89E1E8F4D090017DE68 /* LLOrder.m */; };
+		5C4E715B1E9287C200396D2C /* LLPayUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E71591E9287C200396D2C /* LLPayUtil.m */; };
+		5C4E71621E9287E300396D2C /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E715D1E9287E300396D2C /* CHANGELOG.md */; };
+		5C4E71631E9287E300396D2C /* libLLPaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4E715E1E9287E300396D2C /* libLLPaySDK.a */; };
+		5C4E71641E9287E300396D2C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5C4E71601E9287E300396D2C /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		915450F31C3D1520000CBFD2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C23C8971E8E840C0017DE68 /* RCTLianLianAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCTLianLianAPI.h; path = RCTLianlianPayAPI/RCTLianLianAPI.h; sourceTree = SOURCE_ROOT; };
+		5C23C8981E8E840C0017DE68 /* RCTLianLianAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCTLianLianAPI.m; path = RCTLianlianPayAPI/RCTLianLianAPI.m; sourceTree = SOURCE_ROOT; };
+		5C23C89B1E8E86D50017DE68 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5C23C89D1E8F4D090017DE68 /* LLOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLOrder.h; path = RCTLianlianPayAPI/LLOrder.h; sourceTree = SOURCE_ROOT; };
+		5C23C89E1E8F4D090017DE68 /* LLOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LLOrder.m; path = RCTLianlianPayAPI/LLOrder.m; sourceTree = SOURCE_ROOT; };
+		5C4E71561E9287C200396D2C /* 集成加密库请读.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "集成加密库请读.txt"; path = "LLPayUtils/集成加密库请读.txt"; sourceTree = "<group>"; };
+		5C4E71581E9287C200396D2C /* LLPayUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLPayUtil.h; path = LLPayUtils/LLPayUtil.h; sourceTree = "<group>"; };
+		5C4E71591E9287C200396D2C /* LLPayUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LLPayUtil.m; path = LLPayUtils/LLPayUtil.m; sourceTree = "<group>"; };
+		5C4E715D1E9287E300396D2C /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CHANGELOG.md; path = LLPaySDK/CHANGELOG.md; sourceTree = "<group>"; };
+		5C4E715E1E9287E300396D2C /* libLLPaySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLLPaySDK.a; path = LLPaySDK/libLLPaySDK.a; sourceTree = "<group>"; };
+		5C4E715F1E9287E300396D2C /* LLPaySdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LLPaySdk.h; path = LLPaySDK/LLPaySdk.h; sourceTree = "<group>"; };
+		5C4E71601E9287E300396D2C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = LLPaySDK/README.md; sourceTree = "<group>"; };
+		5C4E71611E9287E300396D2C /* walletResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = walletResources.bundle; path = LLPaySDK/walletResources.bundle; sourceTree = "<group>"; };
+		915450F51C3D1520000CBFD2 /* libRCTLianlianPayAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTLianlianPayAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		915450F21C3D1520000CBFD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C23C89C1E8E86D50017DE68 /* CoreTelephony.framework in Frameworks */,
+				5C4E71631E9287E300396D2C /* libLLPaySDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C23C8911E8E81A90017DE68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C23C89B1E8E86D50017DE68 /* CoreTelephony.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C4E71551E9287AB00396D2C /* LLPayUtils */ = {
+			isa = PBXGroup;
+			children = (
+				5C4E71561E9287C200396D2C /* 集成加密库请读.txt */,
+				5C4E71581E9287C200396D2C /* LLPayUtil.h */,
+				5C4E71591E9287C200396D2C /* LLPayUtil.m */,
+			);
+			name = LLPayUtils;
+			sourceTree = "<group>";
+		};
+		5C4E715C1E9287D300396D2C /* LLPaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				5C4E715D1E9287E300396D2C /* CHANGELOG.md */,
+				5C4E715E1E9287E300396D2C /* libLLPaySDK.a */,
+				5C4E715F1E9287E300396D2C /* LLPaySdk.h */,
+				5C4E71601E9287E300396D2C /* README.md */,
+				5C4E71611E9287E300396D2C /* walletResources.bundle */,
+			);
+			name = LLPaySDK;
+			sourceTree = "<group>";
+		};
+		915450EC1C3D1520000CBFD2 = {
+			isa = PBXGroup;
+			children = (
+				5C4E715C1E9287D300396D2C /* LLPaySDK */,
+				5C4E71551E9287AB00396D2C /* LLPayUtils */,
+				915450F71C3D1520000CBFD2 /* RCTLianlianPayAPI */,
+				915450F61C3D1520000CBFD2 /* Products */,
+				5C23C8911E8E81A90017DE68 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		915450F61C3D1520000CBFD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				915450F51C3D1520000CBFD2 /* libRCTLianlianPayAPI.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		915450F71C3D1520000CBFD2 /* RCTLianlianPayAPI */ = {
+			isa = PBXGroup;
+			children = (
+				5C23C89D1E8F4D090017DE68 /* LLOrder.h */,
+				5C23C89E1E8F4D090017DE68 /* LLOrder.m */,
+				5C23C8971E8E840C0017DE68 /* RCTLianLianAPI.h */,
+				5C23C8981E8E840C0017DE68 /* RCTLianLianAPI.m */,
+			);
+			name = RCTLianlianPayAPI;
+			path = RCTWeiboAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		915450F41C3D1520000CBFD2 /* RCTLianlianPayAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 915450FE1C3D1520000CBFD2 /* Build configuration list for PBXNativeTarget "RCTLianlianPayAPI" */;
+			buildPhases = (
+				915450F11C3D1520000CBFD2 /* Sources */,
+				915450F21C3D1520000CBFD2 /* Frameworks */,
+				915450F31C3D1520000CBFD2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTLianlianPayAPI;
+			productName = RCTWeiboAPI;
+			productReference = 915450F51C3D1520000CBFD2 /* libRCTLianlianPayAPI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		915450ED1C3D1520000CBFD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = erica;
+				TargetAttributes = {
+					915450F41C3D1520000CBFD2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 915450F01C3D1520000CBFD2 /* Build configuration list for PBXProject "RCTLianlianPayAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 915450EC1C3D1520000CBFD2;
+			productRefGroup = 915450F61C3D1520000CBFD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				915450F41C3D1520000CBFD2 /* RCTLianlianPayAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		915450F11C3D1520000CBFD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4E715B1E9287C200396D2C /* LLPayUtil.m in Sources */,
+				5C23C89F1E8F4D090017DE68 /* LLOrder.m in Sources */,
+				5C4E71641E9287E300396D2C /* README.md in Sources */,
+				5C23C8991E8E840C0017DE68 /* RCTLianLianAPI.m in Sources */,
+				5C4E71621E9287E300396D2C /* CHANGELOG.md in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		915450FC1C3D1520000CBFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		915450FD1C3D1520000CBFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		915450FF1C3D1520000CBFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../react-native/Libraries/**",
+					"$(BUILT_PRODUCTS_DIR)/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LLPayUtils",
+					"$(PROJECT_DIR)/LLPaySDK",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-force_load",
+					"$(SRCROOT)/LLPaySDK_V2.6/libLLPaySDK.a",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		915451001C3D1520000CBFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../react-native/Libraries/**",
+					"$(BUILT_PRODUCTS_DIR)/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LLPayUtils",
+					"$(PROJECT_DIR)/LLPaySDK",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-force_load",
+					"$(SRCROOT)/LLPaySDK_V2.6/libLLPaySDK.a",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		915450F01C3D1520000CBFD2 /* Build configuration list for PBXProject "RCTLianlianPayAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				915450FC1C3D1520000CBFD2 /* Debug */,
+				915450FD1C3D1520000CBFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		915450FE1C3D1520000CBFD2 /* Build configuration list for PBXNativeTarget "RCTLianlianPayAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				915450FF1C3D1520000CBFD2 /* Debug */,
+				915451001C3D1520000CBFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 915450ED1C3D1520000CBFD2 /* Project object */;
+}

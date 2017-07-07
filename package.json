@@ -1,0 +1,20 @@
+{
+  "name": "react-native-lianlianpay",
+  "version": "0.0.4",
+  "description": "连连认证支付",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "bugs": {
+  },
+  "dependencies": {
+  }
+}
